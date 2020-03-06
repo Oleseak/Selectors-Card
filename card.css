@@ -1,0 +1,46 @@
+#card{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 100px auto;
+  perspective: 500px;
+}
+#card .face,
+#card .back{
+  width: inherit;
+  height: inherit;
+}
+#card .face{
+  background-image: url(imagesmother1.jpeg);
+  background-size: cover;
+  background-position:center;
+}
+#card .back{
+  background-image: url(mothers-day-gifts.jpg);
+  background-size: cover;
+  background-position:center;
+}
+#card .back{
+  transform: translateY(-500px);
+  transform-origin: left;
+  transition: 1s;
+}
+#card:hover .back{
+  background-color: blue;
+  transform: translateY(-500px) rotateY(180deg);
+}
+#card .face>h1{
+  background-color: #fff8;
+  margine: 0px;
+  padding:0px;
+  text-align:center;
+  font-family: inherit;
+  text-decoration-color: red;
+}
+#card .face>h2{
+  background-color: #fff8;
+  margine: 0px;
+  padding:0px;
+  text-align:center;
+  font-family: inherit;
+}

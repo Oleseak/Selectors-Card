@@ -1,0 +1,44 @@
+body{
+  background-color: #333;
+  color: #fff;
+  font-family: Arial;
+  padding: 100px;
+  }
+
+  .effect{
+    background-color: #313;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 130px;
+    border-color: white;
+    border:10px solid;
+
+  }
+  .effect:hover>img{
+    margin-top: -230px;
+    opacity: 0;
+  }
+  .effect>img{
+    transition: 0.5s;
+  }
+  p>a{
+    text-decoration: line-through;
+    color: white;
+    font-size: 20px;
+  }
+  p:hover>a{
+    color: #inherit;
+    font-size:30px;
+  }
+  p>a{
+    transmition: 0.5s;
+  }
+  .effect p{
+    color:#449;
+    padding-top: -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10.5px;
+  }
